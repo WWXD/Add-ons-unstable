@@ -2,7 +2,7 @@
 
 if ($loguserid != 1) { require('pages/404.php'); return; }
 
-$key = hash('sha256', "{$loguserid},{$loguser['pss']},".SALT.",sdi65fdsg4fd65g4fdg65g");
+$key = hash('sha256', "{$loguserid},{$loguser['pss']},".SALT."9aHVbAoEjM6AqxvjeEWhXzhY");
 
 if ($_POST['stuff'] && $_POST['key'] === $key)
 	ircReport($_POST['stuff']);
