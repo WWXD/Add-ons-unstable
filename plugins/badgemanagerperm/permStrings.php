@@ -1,8 +1,5 @@
 <?php
 
-$permDescs['user'] = array
-(
-	'user.assignbadges' => __('Assign Badges'),
-);
+$permDescs['user']['user.assignbadges'] = __('Assign Badges');
 
 ?>

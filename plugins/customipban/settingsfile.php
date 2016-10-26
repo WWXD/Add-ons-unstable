@@ -1,6 +1,6 @@
 <?php
 $settings = array(
-	"text" => array(
+	"ipbantext" => array(
 		"type" => "texthtml",
 		"name" => "HTML content",
 	),
